@@ -14,12 +14,12 @@ namespace Game_over
             InitializeComponent();
 
             advisor1 = new Advisor { FirstName = "อ.สมชาย", LastName = "ใจดี" };
-            advisor1.Students.Add(new Student { FirstName = "สมหญิง", LastName = "ตั้งใจ", StudentID = "650011000-1", Major = "CS", Grade = 4.0 });
-            advisor1.Students.Add(new Student { FirstName = "ก้อง", LastName = "วัฒนชัย", StudentID = "650031101-2", Major = "IT", Grade = 3.5 });
+            advisor1.Students.Add(new Student { FirstName = "แยทแมน", LastName = "ประยุด", StudentID = "67345002-8", Major = "CS", Grade = 4.0 });
+            advisor1.Students.Add(new Student { FirstName = "วิชั่น", LastName = "ชัชชาติ", StudentID = "673450194-8", Major = "IT", Grade = 3.5 });
 
             advisor2 = new Advisor { FirstName = "อ.จี้ไล", LastName = "รักเรียน" };
-            advisor2.Students.Add(new Student { FirstName = "มานพ", LastName = "สุกใส", StudentID = "673450192-0", Major = "IT", Grade = 3.7 });
-            advisor2.Students.Add(new Student { FirstName = "ธนชัย", LastName = "มาสาย", StudentID = "673450193-8", Major = "IT", Grade = 2.8 });
+            advisor2.Students.Add(new Student { FirstName = "มายเมทเนต", LastName = "สุกดี", StudentID = "673450192-5", Major = "IT", Grade = 2.5 });
+            advisor2.Students.Add(new Student { FirstName = "ธนาเทียม", LastName = "มาสาย", StudentID = "673450193-7", Major = "IT", Grade = 3.2 });
         }
 
         private void button3_Click(object sender, EventArgs e)
